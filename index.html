@@ -67,7 +67,7 @@
                         <button id="playPauseButton">
                             <i id="playPauseIcon" class="uil uil-play" onclick="togglePlayPause()"></i> <!-- Play icon -->
                         </button>
-                        <a href="#about" id="about"> ABOUT </a>
+                        <a href="#about"> ABOUT </a>
                         <a href="#portfolio"> WORK </a>
                         <a href="#resume"> RESUME </a>
                         <a href="#blog"> BLOG </a>
@@ -139,7 +139,7 @@
             </div>
 
             <!-- about me  -->
-            <div class="container-fluid container-lg mt-5 p-0">
+            <div class="container-fluid container-lg mt-5 p-0" id="about">
                 <div class="container-fluid d-flex justify-content-start align-items-center text-white flex-column h-100 overflow-scroll p-0">
                     <div class="container-fluid d-flex justify-content-center align-items-center flex-column">
                         <p class="text-secondary fw-normal text-center">Get to Know More
@@ -197,11 +197,9 @@
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </div>
-            </div>
             </div>
 
             <div class="container-fluid d-flex justify-content-center align-items-center flex-lg-row flex-column gap-4 p-5">
@@ -245,7 +243,31 @@
             </div>
 
             <div class="container-fluid p-3">
-                <h4>My Work</h4>
+                <div class="container-fluid d-flex justify-content-center align-items-center flex-column">
+                    <p class="text-secondary fw-normal text-center">
+                        Get to know about my
+                    </p>
+                </div>
+                <div class="container-fluid title">
+                    <p class="fw-bolder text-center display-5">My Work.</p>
+                </div>
+            </div>
+
+            <div class="container-fluid">
+                <div class="container bg-dark p-5  rounded">
+                    <h5 class="text-center text-white">Say Hi!</h5>
+                    <div class="col-12">
+                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    </div>
+                    <div class="col-12">
+                        <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <div class="col-12 p-3 d-flex justify-content-center align-item-center">
+                        <input type="submit" class="btn btn-danger col-6" value="send">
+                    </div>
+                </div>
             </div>
 
 
